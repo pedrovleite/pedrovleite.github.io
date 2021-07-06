@@ -10,9 +10,9 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding: 100px;
   text-align: left;
-  background: #1abc9c;
+  background: #c4a35a;
   color: white;
 }
 
@@ -24,7 +24,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #26495c;
   top: 0;
   position: fixed;
   left: 0;
@@ -66,7 +66,7 @@ body {
 .side {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  background-color: #f1f1f1;
+  background-color: #c66b3d;
   padding: 25px;
 }
 
@@ -74,7 +74,7 @@ body {
 .main {
   -ms-flex: 75%; /* IE10 */
   flex: 75%;
-  background-color: white;
+  background-color: #e5e5dc;
   padding: 25px;
 }
 
@@ -82,9 +82,17 @@ body {
 .section {
   -ms-flex: 100%; /* IE10 */
   flex: 100%;
-  background-color: white;
-  padding: 0;
+  background-color: #e5e5dc;
+  padding: 10px;
 }
+
+.subsection {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  background-color: #e5e5dc;
+  padding:0 ;
+}
+
 
 /* Fake image, just for this example */
 .fakeimg {
