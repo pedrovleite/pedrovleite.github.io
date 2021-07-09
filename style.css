@@ -75,6 +75,18 @@ body {
   margin: 0;
 }
 
+/* Style the dropdown button to fit inside the topnav for Projects!!!!S*/
+.dropdown .dropbtnp {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 12px;
+  background-color: #161616;
+  font-family: inherit;
+  margin: 0;
+}
+
 .dropdown .adropbtn {
   font-size: 17px;
   border: none;
@@ -106,6 +118,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+  background-color: black;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
@@ -130,6 +143,9 @@ body {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
+  .topnav a:not(:first-child), .dropdown .dropbtnp {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -152,6 +168,11 @@ body {
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown .dropbtnp {
     display: block;
     width: 100%;
     text-align: left;
@@ -186,7 +207,7 @@ body {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -284,6 +305,8 @@ q {font-style: italic;}
   flex: 100%;
   background-color: black;
   padding:0 ;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 

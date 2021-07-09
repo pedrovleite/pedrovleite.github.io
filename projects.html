@@ -11,29 +11,30 @@
 
 
 <body>
-<!-- new navbar -->
-<div class="topnav" id="myTopnav">
+  <!-- new navbar -->
+  <div class="topnav" id="myTopnav">
   <a href="index.html">Home</a>
-<a href="aboutme.html">About Me</a>
-<a href="education.html">Education</a>
-<a href="aandv.html">Associativism and Volunteering</a>
-<a href="sports.html">Sports</a>
-<div class="dropdown">
-  <button class="adropbtn">Projects
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content">
-    <a href="projects.html#mmdatabase">    -Meme Movie Database</a>
-    <a href="#">    -This Site</a>
-    <a href="#">-(To be announced)</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="education.html">Education</a>
+  <a href="aandv.html">Associativism and Volunteering</a>
+  <a href="sports.html">Sports</a>
+  <div class="dropdown">
+    <button class="dropbtnp">Projects
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="projects.html#ppage">Personal Page</a>
+      <a href="projects.html#mmdatabase">Meme Movie Database</a>
+      <a href="projects.html#project3">Project 3</a>
+      <a href="projects.html#project4">Project 4</a>
+    </div>
   </div>
-</div>
-<a href="extras.html">Extras</a>
-<a href="now.html">Now</a>
+  <a href="extras.html">Extras</a>
+  <a href="now.html">Now</a>
 
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-<!-- new navbar -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <!-- new navbar -->
 
 
 <div class="header">
@@ -44,14 +45,14 @@
 
 
 
-<!-- teste carrossel -->
+<!-- Carrossel -->
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width slides/quotes -->
   <div class="mySlides">
-    <q>You take post-it's to seriously.</q>
+    <q>You take post-it's too seriously.</q>
     <p class="author">- Data Structure Professor</p>
   </div>
 
@@ -61,8 +62,8 @@
   </div>
 
   <div class="mySlides">
-    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
-    <p class="author">- Thomas A. Edison</p>
+    <q>You're the fun coach!</q>
+    <p class="author">- Friend and Sailing Coach</p>
   </div>
 
   <!-- Next/prev buttons -->
@@ -82,67 +83,78 @@
 <script>
 showSlides(1);
 </script>
-<!-- fim teste carrossel -->
+<!-- Fim Carrossel -->
 
 
   <div class="main">
 
     <div class="section">
       <h1 id="aandv">Projects</h1>
-      <h6>Updated July 7, 2021</h6>
+      <h6>Updated July 9, 2021</h6>
+
+      <div class="section" id="ppage">
+      </div>
+
+      <div class="subsection">
+      <h3>Personal Page</h3>
+      <p>In order to have some kind of curriculum with all my information easy to access and easy ti update I created this Website/Personal page
+      that easly keeps track of anything I do, from what I study to what Projects I'm in and what sports I'm currently practicing.</p>
+         <a href="https://github.com/pedrovleite/Meme_Movie_Database"  style="color:white">GitHub Link - Meme Movie Database</a>
+      <br>
+      <p>It started with a simple template from our friends at <a href="https://www.w3schools.com/howto/howto_make_a_website.asp" style="color:white">w3schools.com</a></p>
+      <center>
+      <img src="/media/website_project/first_print.png" alt="Apresentação" style="width:70%" class="center">
+      </center>
+      <p>After playing around with it for a while and putting all the inforation in the same page I noticed that the website was getting too long,
+         and it was difficult to search for the more important information. I started to devide the website in small pages and costumizing a little
+          the navbar and the "About Me" section. </p>
+      <br>
+      <p>The navbar was one of the big problems, I wanted something that could be read in the PC (of course) but since everyone now reads everything in small screens, it was my goal to build something that you could visualize in
+      any device. Nothing like a night without sleep some coffee and dark tea to get to know css and javascript and create a nav bar that could collapse in screen with less than 800 pixels.</p>
+      <center>
+      <img src="/media/website_project/website_navbar.gif" alt="Apresentação" style="width:70%" class="center">
+      </center>
+      <br>
+      <p>In addition to that I painted all black 'cause "Praise Dark Mode" and because I'm a big fan of Batman too.</p>
+      <!-- <br> -->
+      <p>One personal and funny thing I added too was a carousel of funny quotes about me from random people like partners, college professors and friends.</p>
+      <!-- <br> -->
+      <center>
+      <img src="/media/website_project/website_carousel.gif" alt="Apresentação" style="width:70%" class="center">
+      </center>
+      <p>That's all, the rest is just small webpage costumization and filling with information.</p>
+      </div>
 
       <div class="section" id="mmdatabase">
       </div>
 
       <div class="subsection">
-      <h4>Meme Movie Database (Em desenvolvimento...)</h4>
-      <p>Após termos notado (eu e o meu colega Manuel Lamas) que muitos dos filmes
-        que gostavamos, fossem eles Senhor dos Anéis (1,2 e 3) ou mesmo Star Wars
-        (4,5 e 6 claro, possivelmente 1,2 e 3 mas é discutivel), tinham bastantes referencias
-        e era usadas bastantes imagens como Memes, decidimos realizar um pequeno estudo
-         comparando o Top 250 de filmes do IMDB com o número de Memes que existe na Internet. </p>
+      <h3>Meme Movie Database (In development with Manuel Lamas)</h3>
+      <p>This project started with the good thing that every frienship should have "meme sharing" After a while
+        we noticed that the memes we share usually came from the same movies (like Lord of the Rings or Star Wars),
+        movies that had a high score in Imdb Ratings. So we  created the hypothesis, maybe the great movies
+        (and here we defined great as higher in rank) have the greater number of memes.</p>
          <a href="https://github.com/pedrovleite/Meme_Movie_Database">GitHub Link - Meme Movie Database</a>
       </div>
 
-      <div class="subsection">
-      <h4>Meme Movie Database (Em desenvolvimento...)</h4>
-      <p>Após termos notado (eu e o meu colega Manuel Lamas) que muitos dos filmes
-        que gostavamos, fossem eles Senhor dos Anéis (1,2 e 3) ou mesmo Star Wars
-        (4,5 e 6 claro, possivelmente 1,2 e 3 mas é discutivel), tinham bastantes referencias
-        e era usadas bastantes imagens como Memes, decidimos realizar um pequeno estudo
-         comparando o Top 250 de filmes do IMDB com o número de Memes que existe na Internet. </p>
-         <a href="https://github.com/pedrovleite/Meme_Movie_Database">GitHub Link - Meme Movie Database</a>
+      <div class="section" id="project3">
       </div>
 
       <div class="subsection">
-      <h4>Meme Movie Database (Em desenvolvimento...)</h4>
-      <p>Após termos notado (eu e o meu colega Manuel Lamas) que muitos dos filmes
-        que gostavamos, fossem eles Senhor dos Anéis (1,2 e 3) ou mesmo Star Wars
-        (4,5 e 6 claro, possivelmente 1,2 e 3 mas é discutivel), tinham bastantes referencias
-        e era usadas bastantes imagens como Memes, decidimos realizar um pequeno estudo
-         comparando o Top 250 de filmes do IMDB com o número de Memes que existe na Internet. </p>
-         <a href="https://github.com/pedrovleite/Meme_Movie_Database">GitHub Link - Meme Movie Database</a>
+      <h3>Project 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla libero sem, rutrum quis pulvinar et, facilisis ac est. Suspendisse cursus sapien arcu, in lobortis mi luctus a. Phasellus condimentum justo ut vulputate egestas. Proin tempor a augue quis dapibus. Nulla in velit feugiat mi mattis porta. Ut molestie blandit diam, sed blandit ante. Vestibulum sit amet augue sollicitudin, eleifend nisl a, ultrices ipsum. In eget suscipit dolor, id fermentum sapien. In nec urna tristique, pellentesque metus nec, consectetur ex. Vestibulum ultricies magna massa, sed laoreet lectus gravida at. Quisque cursus risus eros, quis facilisis sapien rutrum eget.</p>
+         <a href="projects.html#project3">GitHub Link - Meme Movie Database</a>
+      </div>
+
+      <div class="section" id="project4">
       </div>
 
       <div class="subsection">
-      <h4>Meme Movie Database (Em desenvolvimento...)</h4>
-      <p>Após termos notado (eu e o meu colega Manuel Lamas) que muitos dos filmes
-        que gostavamos, fossem eles Senhor dos Anéis (1,2 e 3) ou mesmo Star Wars
-        (4,5 e 6 claro, possivelmente 1,2 e 3 mas é discutivel), tinham bastantes referencias
-        e era usadas bastantes imagens como Memes, decidimos realizar um pequeno estudo
-         comparando o Top 250 de filmes do IMDB com o número de Memes que existe na Internet. </p>
-         <a href="https://github.com/pedrovleite/Meme_Movie_Database">GitHub Link - Meme Movie Database</a>
+      <h3>Project 4</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla libero sem, rutrum quis pulvinar et, facilisis ac est. Suspendisse cursus sapien arcu, in lobortis mi luctus a. Phasellus condimentum justo ut vulputate egestas. Proin tempor a augue quis dapibus. Nulla in velit feugiat mi mattis porta. Ut molestie blandit diam, sed blandit ante. Vestibulum sit amet augue sollicitudin, eleifend nisl a, ultrices ipsum. In eget suscipit dolor, id fermentum sapien. In nec urna tristique, pellentesque metus nec, consectetur ex. Vestibulum ultricies magna massa, sed laoreet lectus gravida at. Quisque cursus risus eros, quis facilisis sapien rutrum eget. </p>
+         <a href="projects.html#project4">GitHub Link - Meme Movie Database</a>
       </div>
 
-      <div class="subsection">
-      <h4>Meme Movie Database (Em desenvolvimento...)</h4>
-      <p>Após termos notado (eu e o meu colega Manuel Lamas) que muitos dos filmes
-        que gostavamos, fossem eles Senhor dos Anéis (1,2 e 3) ou mesmo Star Wars
-        (4,5 e 6 claro, possivelmente 1,2 e 3 mas é discutivel), tinham bastantes referencias
-        e era usadas bastantes imagens como Memes, decidimos realizar um pequeno estudo
-         comparando o Top 250 de filmes do IMDB com o número de Memes que existe na Internet. </p>
-         <a href="https://github.com/pedrovleite/Meme_Movie_Database">GitHub Link - Meme Movie Database</a>
-      </div>
 
 
       </div>
